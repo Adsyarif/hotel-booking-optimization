@@ -16,10 +16,10 @@ function App() {
 
   const data = JSON.stringify(hotels);
   return (
-    <>
-      <h1>Hotels</h1>
+    <main className="mt-2">
+      <h1 className="">Hotels</h1>
       <p>{data}</p>
-    </>
+    </main>
   );
 }
 
